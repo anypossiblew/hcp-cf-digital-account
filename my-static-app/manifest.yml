@@ -1,0 +1,5 @@
+---
+applications:
+- name: my-static-app
+  random-route: true
+  memory: 64M
