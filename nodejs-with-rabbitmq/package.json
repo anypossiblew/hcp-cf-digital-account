@@ -1,0 +1,23 @@
+{
+  "name": "hcp-cf-digital-account",
+  "version": "0.0.1",
+  "homepage": "https://github.com/anypossiblew/hcp-cf-digital-account",
+  "author": {
+    "name": "tiven.wang",
+    "email": "anypossible.w@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anypossiblew/hcp-cf-digital-account.git"
+  },
+  "engines": {
+    "node": "6.2.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cfenv": "^1.0.3",
+    "express": "^4.14.0",
+    "path": "^0.12.7",
+    "amqp": "^0.2.6"
+  }
+}

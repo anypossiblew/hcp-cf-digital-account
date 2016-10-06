@@ -1,0 +1,11 @@
+---
+applications:
+- name: digital-account
+  buildpack: nodejs_buildpack
+  command: node app.js
+  memory: 128M
+  disk_quota: 128M
+  host: digital-account
+  services:
+  - rabbitmq-digacc-service
+  
