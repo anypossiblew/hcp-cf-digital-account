@@ -9,9 +9,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/anypossiblew/hcp-cf-digital-account.git"
-  },  
-  "engines": {
-    "node": "6.2.1"
   },
   "dependencies": {
     "body-parser": "^1.15.2",
