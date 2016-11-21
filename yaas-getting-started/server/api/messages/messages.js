@@ -49,7 +49,7 @@ module.exports = function (oApp) {
 
     oApp.post('/api/message', function (req, res) {
 
-      //checkRequestHeader();
+      //checkReqHeaders4Sec();
 
       for(var i = 0; i < req.body.result.length; i++) {
     		var event = req.body.result[i];
