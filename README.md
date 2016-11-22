@@ -14,3 +14,10 @@ Details can be found on the [Tiven's blog](http://tiven.wang/articles/nodejs-wit
 
 Details can be found on the [Tiven's blog](http://tiven.wang/articles/nodejs-with-rabbitmq-on-hcp-cloud-foundry/).
 
+* Getting Started with YaaS [/yaas-getting-started](../../tree/master/yaas-getting-started)
+
+Details can be found on the [Tiven's blog](http://tiven.wang/articles/getting-started-with-yaas/).
+
+* OAuth2 Client for YaaS [/yaas-oauth2-client](../../tree/master/yaas-oauth2-client)
+
+Details can be found on the [Tiven's blog](http://tiven.wang/articles/oauth2-with-yaas/).

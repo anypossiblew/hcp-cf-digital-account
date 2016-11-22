@@ -1,0 +1,6 @@
+---
+applications:
+- name: yaas-oauth2-client
+  path: dist
+  random-route: true
+  memory: 64M
