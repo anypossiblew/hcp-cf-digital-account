@@ -1,13 +1,15 @@
-# hcp-cf-digital-account
-The OAuth2 Client project for YaaS service
+# angular 1.x demo application
+An AngularJS 1.x demo Application
 
-About the details of this project can be found in [Tiven's blog](http://tiven.wang/articles/oauth2-with-yaas/)
+About the details of this project can be found in [Tiven's blog](http://tiven.wang/articles/angular.js-1.x-introduction/)
 
-## Setup
+## Run
 
 * Exec `npm install`
 
-* Run `gulp serve` test the application locally
+* Run `gulp serve` to access the application locally
+
+* Run `gulp test` to test the unit test of this application
 
 ## Configuration and Deploy
 
