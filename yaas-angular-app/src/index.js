@@ -1,9 +1,11 @@
 var angular = require('angular');
 require('angular-route');
 require('angular-resource');
+require('angular-material');
+
 
 var yaasOAuth2 = require('./services/yaas-oauth2');
-var navigation = require('./app/navigation');
+var introduction = require('./app/introduction');
 var messageComponent = require('./components/message-component');
 var implicitGrant = require('./app/login/implicit-grant');
 var implicitCallback = require('./app/login/callback');
@@ -12,15 +14,16 @@ var passwordCredentials = require('./app/login/password-credentials');
 
 
 require('./index.css');
+require('angular-material/angular-material.css');
 
 var app = 'app';
 module.exports = app;
 
 angular
-  .module(app, ['ngRoute', 'ngResource'])
+  .module(app, ['ngRoute', 'ngResource', 'ngMaterial'])
   .factory('YaaSOAuth2', yaasOAuth2)
   .component('messageComponent', messageComponent)
-  .controller('NavigationController', navigation)
+  .controller('IntroductionController', introduction)
   .controller('ImplicitGrantController', implicitGrant)
   .controller('ImplicitCallbackController', implicitCallback)
   .controller('ClientCredentialsController', clientCredentials)
@@ -43,6 +46,10 @@ angular
       .when('/password-credentials', {
         template: require('./app/login/password-credentials.html'),
         controller: 'PasswordCredentialsController as passwordCredentials'
+      })
+      .otherwise({
+        template: require('./app/introduction.html'),
+        controller: 'IntroductionController as introduction'
       });
 
     //$locationProvider.html5Mode(true);

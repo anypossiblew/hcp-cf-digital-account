@@ -1,6 +1,6 @@
 var angular = require('angular');
 require('angular-mocks');
-var Navigation = require('./navigation');
+var Navigation = require('./introduction');
 
 describe('navigation', function () {
   beforeEach(function () {

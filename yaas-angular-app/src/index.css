@@ -1,10 +1,10 @@
 body {
-  background-color: lightgrey;
   font-family: "微软雅黑";
 }
 
 div[ng-view] {
-  margin: 10px 400px;
+  margin: auto;
+  width: 700px;
 }
 
 h2 {
@@ -18,52 +18,4 @@ pre {
   margin-bottom: 1.5em;
   border-radius: 3px;
   padding: 5px;
-}
-
-ul li {
-  margin: 10px;
-  color: #0078e7;
-}
-
-form label {
-  text-align: right;
-  display: inline-block;
-  vertical-align: middle;
-  width: 10em;
-  margin: 0 1em 0 0;
-}
-
-form input {
-  padding: .5em .6em;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-shadow: inset 0 1px 3px #ddd;
-  border-radius: 4px;
-  vertical-align: middle;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-form .button, button {
-  background-color: #0078e7;
-  color: #fff;
-  font-family: '微软雅黑' 'sans-serif';
-  padding: .5em 1em;
-  border: 1px solid #999;
-  border: 0 rgba(0,0,0,0);
-  text-decoration: none;
-  border-radius: 2px;
-}
-
-form .button[type='button'] {
-  margin-left: 100px;
-}
-
-.navigation {
-  height: 50px;
-}
-
-.navigation li {
-  float: left;
 }

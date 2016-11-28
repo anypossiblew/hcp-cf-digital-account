@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>FountainJS</title>
+    <title>Angular Material</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <base href="/">
@@ -10,13 +10,15 @@
   </head>
 
   <body ng-app="app">
-    <div ng-controller="NavigationController">
-      <ul class="navigation">
-        <li ng-repeat="navigation in navigations">
-          <a href="{{navigation.url}}">{{navigation.title}}</a>
-        </li>
-      </ul>
+    <div class="main-content" layout-padding layout-wrap layout-margin ng-cloak layout-align="space-around">
+      <md-nav-bar md-selected-nav-item="currentNavItem" nav-bar-aria-label="navigation links">
+        <md-nav-item md-nav-href="#/implicit-grant" name="page-implicit-grant">Implicit Grant</md-nav-item>
+        <md-nav-item md-nav-href="#/client-credentials" name="page-client-credentials">Client Credentials</md-nav-item>
+        <md-nav-item md-nav-href="#/password-credentials" name="page-password-credentials">Password Credentials</md-nav-item>
+      </md-nav-bar>
+      <div class="ext-content">
+        <div ng-view></div>
+      </div>
     </div>
-    <div ng-view></div>
   </body>
 </html>
