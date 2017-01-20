@@ -1,0 +1,10 @@
+---
+applications:
+- name: c4c-wechat-static
+  buildpack: nodejs_buildpack
+  command: node app.js
+  memory: 128M
+  disk_quota: 128M
+  host: c4c-wechat-static
+  services:
+  - c4cwechat

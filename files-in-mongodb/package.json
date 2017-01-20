@@ -1,0 +1,27 @@
+{
+  "name": "hcp-cf-c4c-wechat",
+  "version": "0.0.1",
+  "homepage": "https://github.com/anypossiblew/hcp-cf-digital-account",
+  "author": {
+    "name": "tiven.wang",
+    "email": "tiwen.wang@sap.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anypossiblew/hcp-cf-digital-account.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cfenv": "^1.0.3",
+    "express": "^4.14.0",
+    "gridfs-stream": "^1.1.1",
+    "mongoose": "^4.5.10",
+    "multer": "1.2.1",
+    "path": "^0.12.7",
+    "stream-buffers": "^3.0.1",
+    "file-system": "^2.2.2"
+  },
+  "devDependencies": {
+
+  }
+}
